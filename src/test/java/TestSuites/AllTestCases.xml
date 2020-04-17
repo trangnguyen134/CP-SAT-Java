@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="AllTestCases" parallel="classes" thread-count="1">
+<!--    <test name="Test1-DynamicTables.java">
+        <classes>
+            <class name="TestCases.DynamicTables" />
+        </classes>
+    </test>-->
+    <test name="Test2-VerifyFlights.java">
+        <classes>
+            <class name="TestCases.RadioButtonFieldText" />
+        </classes>
+    </test>
+</suite>
