@@ -12,13 +12,14 @@ public class DynamicTables extends BaseTest {
 
     @BeforeTest
     public void SetUp() {
-        String url = "http://demo.guru99.com/test/web-table-element.php";
-        driver.get(url);
     }
 
     @Test
 
     public void VerifyDynamicTables() {
+        String url = "http://demo.guru99.com/test/web-table-element.php";
+        driver.get(url);
+
         List<WebElement> col = driver.findElements(By.xpath("//*[@id='leftcontainer']/table/thead/tr/th"));
         System.out.println("Number of columns are: " + col.size());
 
