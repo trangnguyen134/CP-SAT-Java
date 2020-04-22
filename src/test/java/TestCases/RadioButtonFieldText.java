@@ -7,16 +7,22 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class RadioButtonFieldText extends BaseTest {
     @BeforeTest
     public void setUp() {
-        String url = "http://demo.guru99.com/test/newtours/";
-        driver.get(url);
 
     }
 
     @Test
     public void Flights() {
+
+        String url = "http://demo.guru99.com/test/newtours/";
+        driver.get(url);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+
         WebElement flights = driver.findElement(By.linkText("Flights"));
         flights.click();
 

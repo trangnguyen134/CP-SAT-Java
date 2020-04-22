@@ -15,11 +15,6 @@ public class RightClickDoubleClick extends BaseTest {
     public void SetUp() {
     }
 
-/*    Launch the web browser and launch our practice page https://demoqa.com/tooltip-and-double-click/
-    Find the required element i.e. button in our sample and do double click on the element
-    Accept the alert message
-    Close the browser to end the program*/
-
     @Test
     public void actionsClick() {
         String url = "https://demoqa.com/tooltip-and-double-click/";

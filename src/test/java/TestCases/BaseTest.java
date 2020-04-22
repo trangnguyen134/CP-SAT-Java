@@ -1,6 +1,7 @@
 package TestCases;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.xalan.xsltc.DOM;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,6 +30,7 @@ public class BaseTest {
         chrome_options.setPageLoadStrategy(PageLoadStrategy.NONE);
         driver = new ChromeDriver(chrome_options);
         softAssert = new SoftAssert();
+
     }
 
     @AfterClass

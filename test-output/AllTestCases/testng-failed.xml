@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [AllTestCases]">
+  <test parallel="classes" name="Test5-DropdownFieldText.java(failed)">
+    <classes>
+      <class name="TestCases.RadioButtonFieldText">
+        <methods>
+          <include name="setUp"/>
+          <include name="init"/>
+          <include name="CleanUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestCases.RadioButtonFieldText -->
+      <class name="TestCases.RightClickDoubleClick">
+        <methods>
+          <include name="SetUp"/>
+          <include name="init"/>
+          <include name="CleanUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- TestCases.RightClickDoubleClick -->
+      <class name="TestCases.MouseKeyBoard">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="init"/>
+          <include name="CleanUp"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- TestCases.MouseKeyBoard -->
+      <class name="TestCases.MultipleActions">
+        <methods>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="CleanUp"/>
+        </methods>
+      </class> <!-- TestCases.MultipleActions -->
+      <class name="TestCases.DropdownFieldText">
+        <methods>
+          <include name="init"/>
+          <include name="SetUp"/>
+          <include name="CleanUp"/>
+          <include name="cleanUp"/>
+          <include name="Registration"/>
+        </methods>
+      </class> <!-- TestCases.DropdownFieldText -->
+      <class name="TestCases.ActionBuilderGoogle">
+        <methods>
+          <include name="setUp"/>
+          <include name="init"/>
+          <include name="cleanUp"/>
+          <include name="CleanUp"/>
+        </methods>
+      </class> <!-- TestCases.ActionBuilderGoogle -->
+      <class name="TestCases.BrokenLink">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="init"/>
+          <include name="CleanUp"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- TestCases.BrokenLink -->
+    </classes>
+  </test> <!-- Test5-DropdownFieldText.java(failed) -->
+</suite> <!-- Failed suite [AllTestCases] -->

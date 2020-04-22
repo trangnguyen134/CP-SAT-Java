@@ -4,30 +4,39 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class TypeOfAlerts {
-    public static void main(String[] args) {
-        WebDriverManager.chromedriver().setup();
-        WebDriver chromedriver = new ChromeDriver();
-        chromedriver.get("https://www.toolsqa.com/handling-alerts-using-selenium-webdriver/");
-        chromedriver.manage().window().maximize();
-        chromedriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+public class TypeOfAlerts extends BaseTest {
+
+    @BeforeTest
+    public void setUp() {
+
+    }
+
+    @Test
+    public void AlertVerification() {
+        String url = "https://www.toolsqa.com/handling-alerts-using-selenium-webdriver/";
+        driver.get(url);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
 
         // Simple Alert
-        WebElement simpleAlertButton = chromedriver.findElement(By.xpath("//*[text()='Simple Alert']"));
+        WebElement simpleAlertButton = driver.findElement(By.xpath("//*[text()='Simple Alert']"));
         simpleAlertButton.click();
-        Alert simpleAlert = chromedriver.switchTo().alert();
+        Alert simpleAlert = driver.switchTo().alert();
         String simpleAlertText = simpleAlert.getText();
         System.out.println("Alert text is: " + simpleAlertText);
         simpleAlert.accept();
 
         //Confirmation Alert
-        WebElement confirmAlertButton = chromedriver.findElement(By.xpath("//*[text()='Confirm Pop up']"));
-        ((JavascriptExecutor) chromedriver).executeScript("arguments[0].click()", confirmAlertButton);
-        Alert confirmAlert = chromedriver.switchTo().alert();
+        WebElement confirmAlertButton = driver.findElement(By.xpath("//*[text()='Confirm Pop up']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click()", confirmAlertButton);
+        Alert confirmAlert = driver.switchTo().alert();
         String confirmAlertText = confirmAlert.getText();
         System.out.println("Confirmation Alert text is: " + confirmAlertText);
         try {
@@ -38,9 +47,9 @@ public class TypeOfAlerts {
         confirmAlert.dismiss();
 
         //Prompt Alert
-        WebElement promptAlertButton = chromedriver.findElement(By.xpath("//*[text()='Prompt Pop up']"));
-        ((JavascriptExecutor) chromedriver).executeScript("arguments[0].click()", promptAlertButton);
-        Alert promptAlert = chromedriver.switchTo().alert();
+        WebElement promptAlertButton = driver.findElement(By.xpath("//*[text()='Prompt Pop up']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click()", promptAlertButton);
+        Alert promptAlert = driver.switchTo().alert();
         String promptAlertText = promptAlert.getText();
         System.out.println("Prompt alert text is: " + promptAlertText);
         promptAlert.sendKeys("Ammie does not like it");
@@ -50,8 +59,10 @@ public class TypeOfAlerts {
             e.printStackTrace();
         }
         promptAlert.accept();
+    }
 
-        chromedriver.close();
+    @AfterTest
+    public void cleanUp() {
 
     }
 }
