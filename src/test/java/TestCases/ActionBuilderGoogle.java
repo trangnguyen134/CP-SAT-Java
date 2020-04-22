@@ -10,17 +10,23 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class ActionBuilderGoogle extends BaseTest {
     @BeforeTest
     public void setUp() {
-        String url = "https://accounts.google.com/signup";
-        driver.navigate().to(url);
+
     }
 
     //Create google account using actions class builder
 
     @Test
     public void actionBuilderPractice() {
+
+        String url = "https://accounts.google.com/signup";
+        driver.navigate().to(url);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         WebElement firstName = driver.findElement(By.xpath("//*[@id='firstName']"));
         WebElement lastName = driver.findElement(By.xpath("//*[@id='lastName']"));

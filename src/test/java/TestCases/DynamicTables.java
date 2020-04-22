@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class DynamicTables extends BaseTest {
 
@@ -19,6 +20,8 @@ public class DynamicTables extends BaseTest {
     public void VerifyDynamicTables() {
         String url = "http://demo.guru99.com/test/web-table-element.php";
         driver.get(url);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         List<WebElement> col = driver.findElements(By.xpath("//*[@id='leftcontainer']/table/thead/tr/th"));
         System.out.println("Number of columns are: " + col.size());

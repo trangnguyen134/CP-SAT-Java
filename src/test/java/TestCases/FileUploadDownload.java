@@ -6,18 +6,24 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class FileUploadDownload {
+    @BeforeTest
+    public void setUp() {
+
+    }
+
     @Test
     public void VerifyFileUploadDownload() {
+
         String uploadFileUrl = "http://demo.guru99.com/test/upload/";
-
         String downloadFileUrl = "http://demo.guru99.com/test/yahoo.html";
-
         String filePath = "C:\\Users\\Ammie\\Desktop\\Chrome_bookmark.html";
 
         WebDriverManager.firefoxdriver().setup();
@@ -52,8 +58,10 @@ public class FileUploadDownload {
 
         System.out.println("Finish download file");
 
-        driver.close();
-
-
     }
+
+    @AfterTest
+    public void cleanUp() {
+    }
+
 }

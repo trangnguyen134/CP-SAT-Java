@@ -7,16 +7,21 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class DropdownFieldText extends BaseTest {
 
     @BeforeTest
     public void SetUp() {
-        String url = "http://demo.guru99.com/test/newtours/register.php";
-        driver.get(url);
     }
 
     @Test
     public void Registration() {
+        String url = "http://demo.guru99.com/test/newtours/register.php";
+        driver.get(url);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+
         WebElement firstName = driver.findElement(By.xpath("//*[@name='firstName']"));
         firstName.sendKeys("Trang");
 

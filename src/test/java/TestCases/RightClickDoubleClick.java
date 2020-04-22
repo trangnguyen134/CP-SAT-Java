@@ -8,11 +8,11 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class RightClickDoubleClick extends BaseTest {
     @BeforeTest
     public void SetUp() {
-        String url = "https://demoqa.com/tooltip-and-double-click/";
-        driver.get(url);
     }
 
 /*    Launch the web browser and launch our practice page https://demoqa.com/tooltip-and-double-click/
@@ -22,6 +22,11 @@ public class RightClickDoubleClick extends BaseTest {
 
     @Test
     public void actionsClick() {
+        String url = "https://demoqa.com/tooltip-and-double-click/";
+        driver.get(url);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+
         WebElement doubleClick = driver.findElement(By.xpath("//*[@id='doubleClickBtn']"));
         WebElement rightClick = driver.findElement(By.xpath("//*[@id='rightClickBtn']"));
         WebElement copyMe = driver.findElement(By.xpath("//*[@id='rightclickItem']/div[1]"));

@@ -6,20 +6,25 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import java.net.HttpURLConnection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class BrokenLink {
+public class BrokenLink extends BaseTest {
+    @BeforeTest
 
-    /* Information
-    1. Find all links in  the website
-    2. Submit HTTP requests
-    3. Verify response code for each request
-     */
-    public static void main(String[] args) {
+    public void SetUp() {
+
+    }
+
+    @Test
+
+    public void VerifyBrokenLink() {
 
         String homePage = "https://www.toolsqa.com/";
         String url = "";
@@ -40,7 +45,11 @@ public class BrokenLink {
             url = it.next().getAttribute("href");
             System.out.println(url);
         }
+    }
 
+
+    @AfterTest
+    public void cleanUp() {
 
     }
 }

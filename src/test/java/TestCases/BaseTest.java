@@ -28,7 +28,6 @@ public class BaseTest {
         chrome_options.addArguments("--ignore-certificate-errors");
         chrome_options.setPageLoadStrategy(PageLoadStrategy.NONE);
         driver = new ChromeDriver(chrome_options);
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         softAssert = new SoftAssert();
     }
 
