@@ -33,7 +33,6 @@ public class ActionBuilderGoogle extends BaseTest {
         WebElement userName = driver.findElement(By.xpath("//*[@id='username']"));
         WebElement password = driver.findElement(By.xpath("//*[@name='Passwd']"));
         WebElement confirmPassword = driver.findElement(By.xpath("//*[@name='ConfirmPasswd']"));
-        // WebElement nextButton = driver.findElement(By.linkText("Next"));
         WebElement nextButton = driver.findElement(By.xpath("//*[contains(text(),'Next')]"));
 
         Actions builder = new Actions(driver);

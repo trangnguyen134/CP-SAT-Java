@@ -67,7 +67,7 @@ public class ToolTip extends BaseTest {
         if (secondTooltipText.equals(expectedSecondTooltip)) {
             System.out.println("Expected second tooltip is: " + expectedSecondTooltip);
             System.out.println("Actual second tooltip is: " + secondTooltipText);
-            System.out.println("Test case 2 is PASSED");
+            System.out.println("What's new in 3.2 tooltip verification is PASSED");
         } else {
             softAssert.assertEquals(secondTooltipText, expectedSecondTooltip, "What's new in 3.2 tooltip verification is FAILED.");
         }
