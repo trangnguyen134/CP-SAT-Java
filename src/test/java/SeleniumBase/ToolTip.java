@@ -1,16 +1,12 @@
-package TestCases;
+package SeleniumBase;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import javax.swing.*;
 import java.util.concurrent.TimeUnit;
 
 public class ToolTip extends BaseTest {

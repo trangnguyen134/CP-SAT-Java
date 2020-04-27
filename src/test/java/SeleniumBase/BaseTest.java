@@ -1,7 +1,6 @@
-package TestCases;
+package SeleniumBase;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.xalan.xsltc.DOM;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,8 +8,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.asserts.SoftAssert;
-
-import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     public static WebDriver driver;

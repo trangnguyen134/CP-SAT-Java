@@ -2,77 +2,77 @@
 <suite name="AllTestCases" parallel="classes" thread-count="1">
     <test name="Test1-ActionBuilderGoogle.java">
         <classes>
-            <class name="TestCases.ActionBuilderGoogle"/>
+            <class name="SeleniumBase.ActionBuilderGoogle"/>
         </classes>
     </test>
     <test name="Test2-BrokenLink.java">
         <classes>
-            <class name="TestCases.BrokenLink"/>
+            <class name="SeleniumBase.BrokenLink"/>
         </classes>
     </test>
     <test name="Test3-ClickImage.java">
         <classes>
-            <class name="TestCases.ClickImage"/>
+            <class name="SeleniumBase.ClickImage"/>
         </classes>
     </test>
     <test name="Test4-DrapDrop.java">
         <classes>
-            <class name="TestCases.DragDrop"/>
+            <class name="SeleniumBase.DragDrop"/>
         </classes>
     </test>
     <test name="Test5-DropdownFieldText.java">
         <classes>
-            <class name="TestCases.DropdownFieldText"/>
+            <class name="SeleniumBase.DropdownFieldText"/>
         </classes>
     </test>
     <test name="Test6-HeadlessBrowser.java">
         <classes>
-            <class name="TestCases.HeadlessBrowser"/>
+            <class name="SeleniumBase.HeadlessBrowser"/>
         </classes>
     </test>
     <test name="Test7-HeadlessPhantom.java">
         <classes>
-            <class name="TestCases.HeadlessPhantom"/>
+            <class name="SeleniumBase.HeadlessPhantom"/>
         </classes>
     </test>
     <test name="Test8-MouseKeyBoard.java">
         <classes>
-            <class name="TestCases.MouseKeyBoard"/>
+            <class name="SeleniumBase.MouseKeyBoard"/>
         </classes>
     </test>
     <test name="Test9-MultipleActions.java">
         <classes>
-            <class name="TestCases.MultipleActions"/>
+            <class name="SeleniumBase.MultipleActions"/>
         </classes>
     </test>
     <test name="Test10-MultipleWindows.java">
         <classes>
-            <class name="TestCases.MultipleWindows"/>
+            <class name="SeleniumBase.MultipleWindows"/>
         </classes>
     </test>
     <test name="Test11-RadioButtonFieldText.java">
         <classes>
-            <class name="TestCases.RadioButtonFieldText"/>
+            <class name="SeleniumBase.RadioButtonFieldText"/>
         </classes>
     </test>
     <test name="Test12-RightClickDoubleClick.java">
         <classes>
-            <class name="TestCases.RightClickDoubleClick"/>
+            <class name="SeleniumBase.RightClickDoubleClick"/>
         </classes>
     </test>
     <test name="Test13-Screenshot.java">
         <classes>
-            <class name="TestCases.Screenshot"/>
+            <class name="SeleniumBase.Screenshot"/>
         </classes>
     </test>
     <test name="Test14-Tooltip.java">
         <classes>
-            <class name="TestCases.ToolTip"/>
+            <class name="SeleniumBase.ToolTip"/>
         </classes>
     </test>
     <test name="Test15-TypeOfAlerts.java">
         <classes>
-            <class name="TestCases.TypeOfAlerts"/>
+            <class name="SeleniumBase.TypeOfAlerts"/>
         </classes>
     </test>
 </suite>
