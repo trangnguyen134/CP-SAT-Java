@@ -10,8 +10,8 @@ public class SignIn_Action {
     public static void Execute(WebDriver driver) throws Exception {
 
         //This is to get the values from Excel sheet, passing parameters (Row num &amp; Col num)to getCellData method
-        String sUsername = ExcelUtils.getCellData(2,2);
-        String sPassword = ExcelUtils.getCellData(2,3);
+        String sUsername = ExcelUtils.getCellData(1,1);
+        String sPassword = ExcelUtils.getCellData(1,2);
 
         Home_Page.lnk_MyAccount(driver).click();
 

@@ -20,6 +20,8 @@ public class DataDrive_TC {
     @Test
     public void DataDrivenVerification() throws Exception {
 
+        ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");
+
         WebDriverManager.chromedriver().setup();
         ChromeOptions chrome_options = new ChromeOptions();
         chrome_options.addArguments("--no-sandbox");
@@ -34,6 +36,7 @@ public class DataDrive_TC {
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         driver.get(Constant.URL);
+
         SignIn_Action.Execute(driver);
 
         System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
@@ -42,6 +45,6 @@ public class DataDrive_TC {
 
         driver.quit();
 
-        ExcelUtils.setCellData("Pass", 2, 4);
+        ExcelUtils.setCellData("Pass", 1, 3);
     }
 }
