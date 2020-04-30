@@ -3,7 +3,7 @@
 <suite thread-count="1" parallel="classes" name="Failed suite [AllTestCases]">
   <test parallel="classes" name="Test11-RadioButtonFieldText.java(failed)">
     <classes>
-      <class name="SeleniumBase.RadioButtonFieldText">
+      <class name="SeleniumBasic.RadioButtonFieldText">
         <methods>
           <include name="setUp"/>
           <include name="init"/>
@@ -11,75 +11,75 @@
           <include name="cleanUp"/>
           <include name="Flights"/>
         </methods>
-      </class> <!-- SeleniumBase.RadioButtonFieldText -->
-      <class name="SeleniumBase.TypeOfAlerts">
+      </class> <!-- SeleniumBasic.RadioButtonFieldText -->
+      <class name="SeleniumBasic.TypeOfAlerts">
         <methods>
           <include name="init"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
           <include name="CleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.TypeOfAlerts -->
-      <class name="SeleniumBase.RightClickDoubleClick">
+      </class> <!-- SeleniumBasic.TypeOfAlerts -->
+      <class name="SeleniumBasic.RightClickDoubleClick">
         <methods>
           <include name="SetUp"/>
           <include name="init"/>
           <include name="CleanUp"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.RightClickDoubleClick -->
-      <class name="SeleniumBase.MouseKeyBoard">
+      </class> <!-- SeleniumBasic.RightClickDoubleClick -->
+      <class name="SeleniumBasic.MouseKeyBoard">
         <methods>
           <include name="cleanUp"/>
           <include name="init"/>
           <include name="CleanUp"/>
           <include name="SetUp"/>
         </methods>
-      </class> <!-- SeleniumBase.MouseKeyBoard -->
-      <class name="SeleniumBase.MultipleActions">
+      </class> <!-- SeleniumBasic.MouseKeyBoard -->
+      <class name="SeleniumBasic.MultipleActions">
         <methods>
           <include name="init"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
           <include name="CleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.MultipleActions -->
-      <class name="SeleniumBase.ToolTip">
+      </class> <!-- SeleniumBasic.MultipleActions -->
+      <class name="SeleniumBasic.ToolTip">
         <methods>
           <include name="init"/>
           <include name="setUp"/>
           <include name="CleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.ToolTip -->
-      <class name="SeleniumBase.DropdownFieldText">
+      </class> <!-- SeleniumBasic.ToolTip -->
+      <class name="SeleniumBasic.DropdownFieldText">
         <methods>
           <include name="init"/>
           <include name="SetUp"/>
           <include name="CleanUp"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.DropdownFieldText -->
-      <class name="SeleniumBase.ActionBuilderGoogle">
+      </class> <!-- SeleniumBasic.DropdownFieldText -->
+      <class name="SeleniumBasic.ActionBuilderGoogle">
         <methods>
           <include name="setUp"/>
           <include name="init"/>
           <include name="cleanUp"/>
           <include name="CleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.ActionBuilderGoogle -->
-      <class name="SeleniumBase.BrokenLink">
+      </class> <!-- SeleniumBasic.ActionBuilderGoogle -->
+      <class name="SeleniumBasic.BrokenLink">
         <methods>
           <include name="cleanUp"/>
           <include name="init"/>
           <include name="CleanUp"/>
           <include name="SetUp"/>
         </methods>
-      </class> <!-- SeleniumBase.BrokenLink -->
+      </class> <!-- SeleniumBasic.BrokenLink -->
     </classes>
   </test> <!-- Test11-RadioButtonFieldText.java(failed) -->
   <test parallel="classes" name="Test15-TypeOfAlerts.java(failed)">
     <classes>
-      <class name="SeleniumBase.TypeOfAlerts">
+      <class name="SeleniumBasic.TypeOfAlerts">
         <methods>
           <include name="AlertVerification"/>
           <include name="init"/>
@@ -87,70 +87,70 @@
           <include name="cleanUp"/>
           <include name="CleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.TypeOfAlerts -->
-      <class name="SeleniumBase.RadioButtonFieldText">
+      </class> <!-- SeleniumBasic.TypeOfAlerts -->
+      <class name="SeleniumBasic.RadioButtonFieldText">
         <methods>
           <include name="setUp"/>
           <include name="init"/>
           <include name="CleanUp"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.RadioButtonFieldText -->
-      <class name="SeleniumBase.RightClickDoubleClick">
+      </class> <!-- SeleniumBasic.RadioButtonFieldText -->
+      <class name="SeleniumBasic.RightClickDoubleClick">
         <methods>
           <include name="SetUp"/>
           <include name="init"/>
           <include name="CleanUp"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.RightClickDoubleClick -->
-      <class name="SeleniumBase.MouseKeyBoard">
+      </class> <!-- SeleniumBasic.RightClickDoubleClick -->
+      <class name="SeleniumBasic.MouseKeyBoard">
         <methods>
           <include name="cleanUp"/>
           <include name="init"/>
           <include name="CleanUp"/>
           <include name="SetUp"/>
         </methods>
-      </class> <!-- SeleniumBase.MouseKeyBoard -->
-      <class name="SeleniumBase.MultipleActions">
+      </class> <!-- SeleniumBasic.MouseKeyBoard -->
+      <class name="SeleniumBasic.MultipleActions">
         <methods>
           <include name="init"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
           <include name="CleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.MultipleActions -->
-      <class name="SeleniumBase.ToolTip">
+      </class> <!-- SeleniumBasic.MultipleActions -->
+      <class name="SeleniumBasic.ToolTip">
         <methods>
           <include name="init"/>
           <include name="setUp"/>
           <include name="CleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.ToolTip -->
-      <class name="SeleniumBase.DropdownFieldText">
+      </class> <!-- SeleniumBasic.ToolTip -->
+      <class name="SeleniumBasic.DropdownFieldText">
         <methods>
           <include name="init"/>
           <include name="SetUp"/>
           <include name="CleanUp"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.DropdownFieldText -->
-      <class name="SeleniumBase.ActionBuilderGoogle">
+      </class> <!-- SeleniumBasic.DropdownFieldText -->
+      <class name="SeleniumBasic.ActionBuilderGoogle">
         <methods>
           <include name="setUp"/>
           <include name="init"/>
           <include name="cleanUp"/>
           <include name="CleanUp"/>
         </methods>
-      </class> <!-- SeleniumBase.ActionBuilderGoogle -->
-      <class name="SeleniumBase.BrokenLink">
+      </class> <!-- SeleniumBasic.ActionBuilderGoogle -->
+      <class name="SeleniumBasic.BrokenLink">
         <methods>
           <include name="cleanUp"/>
           <include name="init"/>
           <include name="CleanUp"/>
           <include name="SetUp"/>
         </methods>
-      </class> <!-- SeleniumBase.BrokenLink -->
+      </class> <!-- SeleniumBasic.BrokenLink -->
     </classes>
   </test> <!-- Test15-TypeOfAlerts.java(failed) -->
 </suite> <!-- Failed suite [AllTestCases] -->
