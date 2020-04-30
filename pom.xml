@@ -5,7 +5,10 @@
     <groupId>AmmiePractice</groupId>
     <artifactId>AmmiePractice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>appModulé</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>AmmiePractice</name>
     <url>http://maven.apache.org</url>
@@ -74,8 +77,8 @@
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-htmlunit-driver</artifactId>
-            <version>2.52.0</version>
+            <artifactId>htmlunit-driver</artifactId>
+            <version>2.32.1</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.github.jesg/phantomjsdriver -->
@@ -92,5 +95,17 @@
             <version>1.5.4</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.2</version>
+        </dependency>
     </dependencies>
 </project>

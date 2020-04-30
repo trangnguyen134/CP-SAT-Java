@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="AllTestCases" parallel="classes" thread-count="1">
+    <test name="Test1-ActionBuilderGoogle.java">
+        <classes>
+            <class name="SeleniumBasic.ActionBuilderGoogle"/>
+        </classes>
+    </test>
+    <test name="Test2-BrokenLink.java">
+        <classes>
+            <class name="SeleniumBasic.BrokenLink"/>
+        </classes>
+    </test>
+    <test name="Test3-ClickImage.java">
+        <classes>
+            <class name="SeleniumBasic.ClickImage"/>
+        </classes>
+    </test>
+    <test name="Test4-DrapDrop.java">
+        <classes>
+            <class name="SeleniumBasic.DragDrop"/>
+        </classes>
+    </test>
+    <test name="Test5-DropdownFieldText.java">
+        <classes>
+            <class name="SeleniumBasic.DropdownFieldText"/>
+        </classes>
+    </test>
+    <test name="Test6-HeadlessBrowser.java">
+        <classes>
+            <class name="SeleniumBasic.HeadlessBrowser"/>
+        </classes>
+    </test>
+    <test name="Test7-HeadlessPhantom.java">
+        <classes>
+            <class name="SeleniumBasic.HeadlessPhantom"/>
+        </classes>
+    </test>
+    <test name="Test8-MouseKeyBoard.java">
+        <classes>
+            <class name="SeleniumBasic.MouseKeyBoard"/>
+        </classes>
+    </test>
+    <test name="Test9-MultipleActions.java">
+        <classes>
+            <class name="SeleniumBasic.MultipleActions"/>
+        </classes>
+    </test>
+    <test name="Test10-MultipleWindows.java">
+        <classes>
+            <class name="SeleniumBasic.MultipleWindows"/>
+        </classes>
+    </test>
+    <test name="Test11-RadioButtonFieldText.java">
+        <classes>
+            <class name="SeleniumBasic.RadioButtonFieldText"/>
+        </classes>
+    </test>
+    <test name="Test12-RightClickDoubleClick.java">
+        <classes>
+            <class name="SeleniumBasic.RightClickDoubleClick"/>
+        </classes>
+    </test>
+    <test name="Test13-Screenshot.java">
+        <classes>
+            <class name="SeleniumBasic.Screenshot"/>
+        </classes>
+    </test>
+    <test name="Test14-Tooltip.java">
+        <classes>
+            <class name="SeleniumBasic.ToolTip"/>
+        </classes>
+    </test>
+    <test name="Test15-TypeOfAlerts.java">
+        <classes>
+            <class name="SeleniumBasic.TypeOfAlerts"/>
+        </classes>
+    </test>
+</suite>
