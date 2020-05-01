@@ -1,5 +1,7 @@
 package pageObjects;
 
+
+import Utilities.Log4j;
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
@@ -14,7 +16,7 @@ public class Home_Page {
 
         //element = driver.findElement(By.id("account"));
         element = driver.findElement(By.xpath("//*[contains(text(),'My Account')]"));
-
+        Log4j.info("My Account link element found");
         return element;
 
     }
@@ -23,7 +25,7 @@ public class Home_Page {
 
        // element = driver.findElement(By.id("account_logout"));
         element = driver.findElement(By.xpath("//*[contains(text(),'Logout')]"));
-
+        Log4j.info("Log Out link element found");
         return element;
 
     }

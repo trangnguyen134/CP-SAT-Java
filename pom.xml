@@ -6,7 +6,7 @@
     <artifactId>AmmiePractice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>appModulé</module>
+        <module>appModules</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -106,6 +106,18 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>4.1.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging-api</artifactId>
+            <version>1.5.6</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

@@ -1,0 +1,27 @@
+2020-04-30 23:13:45,457 INFO  [Log] **************************************************************************************** 
+2020-04-30 23:13:45,458 INFO  [Log] **************************************************************************************** 
+2020-04-30 23:13:45,458 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Selenium_Test_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-04-30 23:13:45,458 INFO  [Log] **************************************************************************************** 
+2020-04-30 23:13:45,458 INFO  [Log] **************************************************************************************** 
+2020-04-30 23:13:46,403 INFO  [Log]  Excel sheet opened 
+2020-04-30 23:13:50,735 INFO  [Log] New driver instantiated 
+2020-04-30 23:13:50,742 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2020-04-30 23:13:50,746 INFO  [Log] Web application launched 
+2020-04-30 23:13:50,773 INFO  [Log] Username picked from Excel is ammie 
+2020-04-30 23:13:50,773 INFO  [Log] Password picked from Excel is Ammie130483 
+2020-04-30 23:13:52,913 INFO  [Log] My Account link element found 
+2020-04-30 23:13:53,099 INFO  [Log] Click action performed on My Account link 
+2020-04-30 23:13:53,830 INFO  [Log] Username text box found 
+2020-04-30 23:13:53,927 INFO  [Log] Username entered in the Username text box 
+2020-04-30 23:13:53,940 INFO  [Log] Password text box found 
+2020-04-30 23:13:54,105 INFO  [Log] Password entered in the Password text box 
+2020-04-30 23:13:54,114 INFO  [Log] Submit button found 
+2020-04-30 23:13:54,176 INFO  [Log] Click action performed on Submit button 
+2020-04-30 23:13:55,214 INFO  [Log] Log Out link element found 
+2020-04-30 23:13:55,281 INFO  [Log] Click action is perfomred on Log Out link 
+2020-04-30 23:13:56,013 INFO  [Log] Browser closed 
+2020-04-30 23:13:56,320 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-04-30 23:13:56,320 INFO  [Log] X 
+2020-04-30 23:13:56,320 INFO  [Log] X 
+2020-04-30 23:13:56,320 INFO  [Log] X 
+2020-04-30 23:13:56,320 INFO  [Log] X 
