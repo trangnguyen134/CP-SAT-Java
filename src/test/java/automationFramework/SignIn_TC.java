@@ -15,12 +15,13 @@ import pageObjects.Home_Page;
 
 import java.util.concurrent.TimeUnit;
 
-public class Log4j_Logging_TC {
+public class SignIn_TC {
+
     private static WebDriver driver = null;
 
     @Test
 
-    public void AddLog4j() throws Exception {
+    public void SignInVerification() throws Exception {
 
         // Provide Log4j configuration settings
 
@@ -47,10 +48,10 @@ public class Log4j_Logging_TC {
         Log4j.info("New driver instantiated");
 
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        Log4j.info("Implicit wait applied on the driver for 10 seconds");
+        Log4j.info("Implicit wait applied on the driver for 60 seconds");
 
         driver.get(Constant.URL);
-        Log4j.info("Web application launched");
+        Log4j.info("Web application is launched");
 
         SignIn_Action.Execute(driver);
 
@@ -58,7 +59,7 @@ public class Log4j_Logging_TC {
 
         Home_Page.lnk_LogOut(driver).click();
 
-        Log4j.info("Click action is perfomred on Log Out link");
+        Log4j.info("Click action is performed on Log Out link");
 
         driver.quit();
 
