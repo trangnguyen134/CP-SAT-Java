@@ -1,10 +1,10 @@
-package appModules;
+package AppModules;
 
 import Utilities.ExcelUtils;
 import Utilities.Log4j;
 import org.openqa.selenium.WebDriver;
-import pageObjects.Home_Page;
-import pageObjects.LogIn_Page;
+import PageObjects.Home_Page;
+import PageObjects.LogIn_Page;
 
 public class SignIn_Action {
     // Pass Arguments (Username and Password) as string

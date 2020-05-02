@@ -1,29 +1,28 @@
-package automationFramework;
+package TestCases;
 
 import Utilities.Constant;
 import Utilities.ExcelUtils;
 import Utilities.Log4j;
-import appModules.SignIn_Action;
+import AppModules.SignIn_Action;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageObjects.Home_Page;
+import PageObjects.Home_Page;
 
 import java.util.concurrent.TimeUnit;
 
 public class SignIn_TC {
-
     private static WebDriver driver = null;
 
-    @Test
+    @BeforeMethod
 
-    public void SignInVerification() throws Exception {
-
-        // Provide Log4j configuration settings
+    public void beforeMethod() throws Exception{
 
         DOMConfigurator.configure("log4j.xml");
 
@@ -53,6 +52,13 @@ public class SignIn_TC {
         driver.get(Constant.URL);
         Log4j.info("Web application is launched");
 
+    }
+
+
+    @Test
+
+    public void SignInVerification() throws Exception {
+
         SignIn_Action.Execute(driver);
 
         System.out.println("Login Successfully, now it is the time to Log Off buddy.");
@@ -61,6 +67,11 @@ public class SignIn_TC {
 
         Log4j.info("Click action is performed on Log Out link");
 
+    }
+
+    @AfterMethod
+
+    public void afterMethod() throws Exception{
         driver.quit();
 
         Log4j.info("Browser closed");
@@ -68,7 +79,6 @@ public class SignIn_TC {
         ExcelUtils.setCellData("Pass", 1, 3);
 
         Log4j.endTestCase("Selenium_Test_001");
-
     }
 
 }

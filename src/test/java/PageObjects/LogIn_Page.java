@@ -1,4 +1,4 @@
-package pageObjects;
+package PageObjects;
 
 import Utilities.Log4j;
 import org.openqa.selenium.By;
