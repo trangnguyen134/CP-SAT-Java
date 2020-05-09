@@ -1,6 +1,5 @@
 package Utilities;
 
-import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -11,7 +10,7 @@ import java.io.FileOutputStream;
 
 public class ExcelUtils {
 
-    private static XSSFSheet ExcelWSheet;
+    public static XSSFSheet ExcelWSheet;
     private static XSSFWorkbook ExcelWBook;
     private static XSSFCell Cell;
     private static XSSFRow Row;
@@ -71,6 +70,24 @@ public class ExcelUtils {
 
             throw (e);
 
+        }
+    }
+
+    /* Once Test Case name is captured, it can be used as an Argument for a function that will return the Test case row from the Excel sheet.*/
+
+    public static int getRowContains(String sTestCaseName, int colNum) throws Exception {
+        int i;
+        try {
+            int rowCount = ExcelWSheet.getLastRowNum();
+            for (i = 0; i < rowCount; i++) {
+                if (ExcelUtils.getCellData(i, colNum).equalsIgnoreCase(sTestCaseName)) {
+                    break;
+                }
+            }
+            return i;
+        } catch (Exception e) {
+            Log4j.error("Class ExcelUtil | Method getRowContains | Exception desc : " + e.getMessage());
+            throw (e);
         }
     }
 }

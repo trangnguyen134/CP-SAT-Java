@@ -5,9 +5,6 @@
     <groupId>AmmiePractice</groupId>
     <artifactId>AmmiePractice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <modules>
-        <module>appModulé</module>
-    </modules>
     <packaging>pom</packaging>
 
     <name>AmmiePractice</name>
@@ -23,10 +20,10 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version>
-            <configuration>
+         <!-- <configuration>
                 <source>1.8</source>
                 <target>1.8</target>
-            </configuration>
+            </configuration> -->
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -106,6 +103,19 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>4.1.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
         </dependency>
     </dependencies>
 </project>
