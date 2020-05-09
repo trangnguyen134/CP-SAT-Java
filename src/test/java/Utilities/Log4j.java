@@ -6,8 +6,7 @@ import org.apache.log4j.Logger;
 public class Log4j {
     //Initialize Log4j logs
 
-    //private static Logger Log = Logger.getLogger(Log.getClass().getName());
-   // private static Logger Log = Logger.getLogger(jdk.internal.jline.internal.Log.class.getName());
+
     private static Logger Log = Logger.getLogger(org.apache.commons.logging.Log.class.getName());
 
     public static void startTestCase(String sTestCaseName) {

@@ -3,7 +3,7 @@ package TestCases;
 import Utilities.Constant;
 import Utilities.ExcelUtils;
 import Utilities.Log4j;
-import AppModules.SignIn_Action;
+import AppObjects.SignIn_Action;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.PageLoadStrategy;
@@ -13,11 +13,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import PageObjects.Home_Page;
+import PageObjects.Page_Home;
 
 import java.util.concurrent.TimeUnit;
 
-public class SignIn_TC {
+public class TC_SignIn {
     private static WebDriver driver = null;
 
     @BeforeMethod
@@ -63,7 +63,7 @@ public class SignIn_TC {
 
         System.out.println("Login Successfully, now it is the time to Log Off buddy.");
 
-        Home_Page.lnk_LogOut(driver).click();
+        Page_Home.lnk_LogOut(driver).click();
 
         Log4j.info("Click action is performed on Log Out link");
 

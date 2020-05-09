@@ -106,3 +106,54 @@
 2020-05-01 14:13:41,318 INFO  [Log] X 
 2020-05-01 14:13:41,318 INFO  [Log] X 
 2020-05-01 14:13:41,318 INFO  [Log] X 
+2020-05-02 00:16:38,576 INFO  [Log] **************************************************************************************** 
+2020-05-02 00:16:38,577 INFO  [Log] **************************************************************************************** 
+2020-05-02 00:16:38,577 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UDF_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-05-02 00:16:38,577 INFO  [Log] **************************************************************************************** 
+2020-05-02 00:16:38,577 INFO  [Log] **************************************************************************************** 
+2020-05-02 00:16:44,230 INFO  [Log] New driver instantiated 
+2020-05-02 00:16:44,236 INFO  [Log] Implicit wait applied on the driver for 60 seconds 
+2020-05-02 00:16:55,626 INFO  [Log] Web application launched successfully 
+2020-05-02 00:16:55,639 INFO  [Log] Username picked from Excel is ammie 
+2020-05-02 00:16:55,639 INFO  [Log] Password picked from Excel is Ammie130483 
+2020-05-02 00:16:55,669 INFO  [Log] My Account link element found 
+2020-05-02 00:19:31,100 INFO  [Log] **************************************************************************************** 
+2020-05-02 00:19:31,101 INFO  [Log] **************************************************************************************** 
+2020-05-02 00:19:31,101 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UDF_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-05-02 00:19:31,101 INFO  [Log] **************************************************************************************** 
+2020-05-02 00:19:31,101 INFO  [Log] **************************************************************************************** 
+2020-05-02 00:19:36,962 INFO  [Log] New driver instantiated 
+2020-05-02 00:19:36,967 INFO  [Log] Implicit wait applied on the driver for 60 seconds 
+2020-05-02 00:19:36,973 INFO  [Log] Web application launched successfully 
+2020-05-02 00:19:36,976 INFO  [Log] Username picked from Excel is ammie 
+2020-05-02 00:19:36,976 INFO  [Log] Password picked from Excel is Ammie130483 
+2020-05-02 00:19:39,892 INFO  [Log] My Account link element found 
+2020-05-02 00:19:40,069 INFO  [Log] Click action performed on My Account link 
+2020-05-02 00:19:41,737 INFO  [Log] Username text box found 
+2020-05-02 00:19:41,831 INFO  [Log] Username entered in the Username text box 
+2020-05-02 00:19:41,846 INFO  [Log] Password text box found 
+2020-05-02 00:19:41,932 INFO  [Log] Password entered in the Password text box 
+2020-05-02 00:19:41,943 INFO  [Log] Submit button found 
+2020-05-02 00:19:42,000 INFO  [Log] Click action performed on Submit button 
+2020-05-02 00:19:43,390 INFO  [Log] Log Out link element found 
+2020-05-02 00:19:43,533 INFO  [Log] Click action is performed on Log Out link 
+2020-05-03 21:58:03,125 INFO  [Log] **************************************************************************************** 
+2020-05-03 21:58:03,126 INFO  [Log] **************************************************************************************** 
+2020-05-03 21:58:03,126 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 UDF_TC       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-05-03 21:58:03,126 INFO  [Log] **************************************************************************************** 
+2020-05-03 21:58:03,126 INFO  [Log] **************************************************************************************** 
+2020-05-03 21:58:08,603 INFO  [Log] New driver instantiated 
+2020-05-03 21:58:08,609 INFO  [Log] Implicit wait applied on the driver for 60 seconds 
+2020-05-03 21:58:08,615 INFO  [Log] Web application launched successfully 
+2020-05-03 21:58:08,616 INFO  [Log] Username picked from Excel is ammie 
+2020-05-03 21:58:08,619 INFO  [Log] Password picked from Excel is Ammie130483 
+2020-05-03 21:58:10,660 INFO  [Log] My Account link element found 
+2020-05-03 21:58:11,143 INFO  [Log] Click action performed on My Account link 
+2020-05-03 21:58:11,900 INFO  [Log] Username text box found 
+2020-05-03 21:58:12,189 INFO  [Log] Username entered in the Username text box 
+2020-05-03 21:58:12,206 INFO  [Log] Password text box found 
+2020-05-03 21:58:12,335 INFO  [Log] Password entered in the Password text box 
+2020-05-03 21:58:12,353 INFO  [Log] Submit button found 
+2020-05-03 21:58:12,466 INFO  [Log] Click action performed on Submit button 
+2020-05-03 21:58:13,436 INFO  [Log] Log Out link element found 
+2020-05-03 21:58:13,532 INFO  [Log] Click action is performed on Log Out link 

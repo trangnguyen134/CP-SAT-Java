@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
 
-public class Home_Page {
+public class Page_Home {
 
     private static WebElement element = null;
 
